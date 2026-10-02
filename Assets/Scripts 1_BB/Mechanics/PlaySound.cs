@@ -32,9 +32,9 @@ namespace AH2715
             }
         }*/
         // Update is called once per frame
-        void Update()
+        /*void Update()
         {
 
-        }
+        }*/
     }
 }
