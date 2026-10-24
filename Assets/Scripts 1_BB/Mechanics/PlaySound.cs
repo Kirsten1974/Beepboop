@@ -6,22 +6,39 @@ namespace AH2715
     public class PlaySound : MonoBehaviour
     {
         public AudioClip sound;
-        private AudioSource _audioSound;
+        private AudioSource audioSound;
+        private Trampoline trampoline;
         /* plays a sound, when the "ball" hits the floor (trigger collider)
          */
         //Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
         {
-            _audioSound = GetComponent<AudioSource>();
+            audioSound = GetComponent<AudioSource>();
+            trampoline = FindAnyObjectByType<Trampoline>();
         }
-        void Start()
+        /*private void OnEnable()
         {
-
+            if (trampoline != null)
+                trampoline.bounceAction += PlayAudio;
+        }*/
+            
+        
+        private void Start()
+        {
+            if (trampoline != null)
+                trampoline.bounceAction += PlayAudio;
+        }
+        private void OnDestroy()
+        {
+            if (trampoline != null)
+            {
+                trampoline.bounceAction -= PlayAudio;
+            }
         }
         public void PlayAudio()
         {
-            _audioSound.clip = sound;
-            _audioSound.Play(0);
+            audioSound.clip = sound;
+            audioSound.Play(0);
         }
         /*private void OnTriggerEnter2D(Collider2D collision)
         {
