@@ -10,16 +10,16 @@ public class PlayerMove : MonoBehaviour
     //Input system write and read
     [SerializeField] InputAction moveAction; //newer way to set controls
     public Vector2 moveInput; //to read input
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //turnSpeed = speed * 4; //this was a speed I liked before, not relavant in 2D
         moveAction.Enable();//
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        moveInput = moveAction.ReadValue<Vector2>();
     }
 }

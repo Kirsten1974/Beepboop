@@ -289,6 +289,35 @@ Transform:
   - {fileID: 895955339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &828741307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5936610780260973809, guid: 08829360e072d384caabf0bb96d5df57,
+    type: 3}
+  m_PrefabInstance: {fileID: 3554355914442595948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &828741308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828741307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6bc5f06a5939a4fa52f698e70a2aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
+  speed: 0
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: bc9ce5ba-2a89-413b-bf5f-70b1ea84639e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  moveInput: {x: 0, y: 0}
 --- !u!1 &895955338
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +511,7 @@ PrefabInstance:
     - target: {fileID: 4221368921801732651, guid: 08829360e072d384caabf0bb96d5df57,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.390424
+      value: -1.008
       objectReference: {fileID: 0}
     - target: {fileID: 4221368921801732651, guid: 08829360e072d384caabf0bb96d5df57,
         type: 3}
@@ -557,12 +586,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5936610780260973809, guid: 08829360e072d384caabf0bb96d5df57,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 828741308}
   m_SourcePrefab: {fileID: 100100000, guid: 08829360e072d384caabf0bb96d5df57, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 210595641}
-  - {fileID: 3554355914442595948}
   - {fileID: 776339932}
+  - {fileID: 3554355914442595948}
