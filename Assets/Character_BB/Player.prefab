@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4221368921801732651}
+  - component: {fileID: 8396271300567227055}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -33,6 +34,30 @@ Transform:
   - {fileID: 4426239133488325757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8396271300567227055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5936610780260973809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6bc5f06a5939a4fa52f698e70a2aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
+  player: {fileID: 5936610780260973809}
+  speed: 0
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: bc9ce5ba-2a89-413b-bf5f-70b1ea84639e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  moveInput: {x: 0, y: 0}
 --- !u!1 &6840105949760455889
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +84,7 @@ Transform:
   m_GameObject: {fileID: 6840105949760455889}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.16399932, y: -0.003700018, z: 0}
   m_LocalScale: {x: 0.27168, y: 0.27168, z: 0.27168}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -151,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 7157354924148056782}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.15500069, y: -0.016299963, z: 0}
+  m_LocalPosition: {x: 0.319, y: -0.02, z: 0}
   m_LocalScale: {x: 0.05275046, y: 0.12182771, z: 0.14681044}
   m_ConstrainProportionsScale: 0
   m_Children: []
