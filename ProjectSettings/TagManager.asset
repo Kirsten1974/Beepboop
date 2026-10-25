@@ -8,6 +8,7 @@ TagManager:
   - Circle
   - Square
   - Stick
+  - Ground
   layers:
   - Default
   - TransparentFX
