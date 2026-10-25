@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 272211214378611128}
   - component: {fileID: 7724455007128796597}
   - component: {fileID: -2661695806216614982}
+  - component: {fileID: 8465605930788293462}
   m_Layer: 0
   m_Name: BlackFly
   m_TagString: Untagged
@@ -361,3 +362,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AH2715.CollectItem
   itemType: 3
+--- !u!114 &8465605930788293462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6982693021867772770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9a96f188ceb424dad33fde8c745923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Insect
+  moveSpeed: 3
+  animalHealth: 1
+  lake: {fileID: 0}
+  flyRange: 2
