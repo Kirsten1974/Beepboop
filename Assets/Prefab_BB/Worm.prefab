@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3617909574315590941}
   - component: {fileID: 1257849079832893889}
   - component: {fileID: 5047427910773603629}
+  - component: {fileID: 7515746145288950148}
   m_Layer: 0
   m_Name: Worm
   m_TagString: Untagged
@@ -153,3 +154,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AH2715.CollectItem
   itemType: 4
+--- !u!114 &7515746145288950148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065005702420954914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31a15c7cfd9f054a93537eb983be84f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Worm
+  moveSpeed: 1
+  animalHealth: 1
