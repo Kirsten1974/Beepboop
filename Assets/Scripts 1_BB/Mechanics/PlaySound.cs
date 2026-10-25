@@ -6,13 +6,13 @@ namespace AH2715
     public class PlaySound : MonoBehaviour
     {
         public AudioClip sound;
-        private AudioSource _audioSound;
+        private AudioSource audioSound;
         /* plays a sound, when the "ball" hits the floor (trigger collider)
          */
         //Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
         {
-            _audioSound = GetComponent<AudioSource>();
+            audioSound = GetComponent<AudioSource>();
         }
         void Start()
         {
@@ -20,8 +20,8 @@ namespace AH2715
         }
         public void PlayAudio()
         {
-            _audioSound.clip = sound;
-            _audioSound.Play(0);
+            audioSound.clip = sound;
+            audioSound.Play(0);
         }
         /*private void OnTriggerEnter2D(Collider2D collision)
         {
