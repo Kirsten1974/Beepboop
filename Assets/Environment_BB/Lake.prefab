@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7746940836549230224}
   - component: {fileID: 1101289730709261617}
-  - component: {fileID: 3951446761315502505}
+  - component: {fileID: 1086654440575330058}
   m_Layer: 0
   m_Name: Lake
   m_TagString: Untagged
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!61 &3951446761315502505
+--- !u!61 &1086654440575330058
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
