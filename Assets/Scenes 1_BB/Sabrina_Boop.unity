@@ -791,7 +791,6 @@ Transform:
   - {fileID: 392813296}
   - {fileID: 319562113}
   - {fileID: 1334493422752440780}
-  - {fileID: 4438734074149981962}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064615457
@@ -1208,7 +1207,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6982693021867772770, guid: e0b50d4a345233645b941336d7df396a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1024192587934155044}
   m_SourcePrefab: {fileID: 100100000, guid: e0b50d4a345233645b941336d7df396a, type: 3}
 --- !u!4 &1024192587934155042 stripped
 Transform:
@@ -1532,6 +1535,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeCat
       objectReference: {fileID: 0}
+    - target: {fileID: 6993959038119169573, guid: 3149227b18feefe4cbc4d12ecd023413,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1621,12 +1629,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 686b1e3ac86dbc34396c476e764bcaf6, type: 3}
---- !u!4 &4438734074149981962 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8669318627291712219, guid: 686b1e3ac86dbc34396c476e764bcaf6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4438734074149981961}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5342276697946387457
 PrefabInstance:
   m_ObjectHideFlags: 0
