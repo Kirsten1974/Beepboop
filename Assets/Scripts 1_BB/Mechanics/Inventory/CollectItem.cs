@@ -24,7 +24,7 @@ namespace AH2715
            Destroy(gameObject);
         }
     }
-    public enum ItemType
+    public enum ItemType 
     {
         Stick,
         RedBerry,
